@@ -11,6 +11,7 @@
 		14EDD48228BA3A200069966F /* TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EDD47728BA3A200069966F /* TestFramework.framework */; };
 		14EDD48728BA3A200069966F /* TestFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EDD48628BA3A200069966F /* TestFrameworkTests.m */; };
 		14EDD48828BA3A200069966F /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 14EDD47A28BA3A200069966F /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14EDD49328BA3C780069966F /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EDD49228BA3C780069966F /* TestObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,9 @@
 		14EDD47B28BA3A200069966F /* TestFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TestFramework.docc; sourceTree = "<group>"; };
 		14EDD48128BA3A200069966F /* TestFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14EDD48628BA3A200069966F /* TestFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFrameworkTests.m; sourceTree = "<group>"; };
+		14EDD49128BA3A4F0069966F /* TestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProtocol.h; sourceTree = "<group>"; };
+		14EDD49228BA3C780069966F /* TestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
+		14EDD49428BA3C9B0069966F /* TestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,9 @@
 			children = (
 				14EDD47A28BA3A200069966F /* TestFramework.h */,
 				14EDD47B28BA3A200069966F /* TestFramework.docc */,
+				14EDD49128BA3A4F0069966F /* TestProtocol.h */,
+				14EDD49428BA3C9B0069966F /* TestObject.h */,
+				14EDD49228BA3C780069966F /* TestObject.m */,
 			);
 			path = TestFramework;
 			sourceTree = "<group>";
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14EDD49328BA3C780069966F /* TestObject.m in Sources */,
 				14EDD47C28BA3A200069966F /* TestFramework.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
