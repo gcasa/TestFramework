@@ -7,12 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14ADF26528BB8E0E008F9F39 /* TestObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 14EDD49428BA3C9B0069966F /* TestObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14ADF26628BB8E12008F9F39 /* TestProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 14EDD49128BA3A4F0069966F /* TestProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		14EDD47C28BA3A200069966F /* TestFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 14EDD47B28BA3A200069966F /* TestFramework.docc */; };
 		14EDD48228BA3A200069966F /* TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EDD47728BA3A200069966F /* TestFramework.framework */; };
 		14EDD48728BA3A200069966F /* TestFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EDD48628BA3A200069966F /* TestFrameworkTests.m */; };
 		14EDD48828BA3A200069966F /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 14EDD47A28BA3A200069966F /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		14EDD49328BA3C780069966F /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EDD49228BA3C780069966F /* TestObject.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		14EDD4B128BB8D3C0069966F /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = folder.documentationcatalog;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# $(DOCC_EXEC)\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
 		14EDD48328BA3A200069966F /* PBXContainerItemProxy */ = {
@@ -100,6 +116,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				14EDD48828BA3A200069966F /* TestFramework.h in Headers */,
+				14ADF26528BB8E0E008F9F39 /* TestObject.h in Headers */,
+				14ADF26628BB8E12008F9F39 /* TestProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +134,7 @@
 				14EDD47528BA3A200069966F /* Resources */,
 			);
 			buildRules = (
+				14EDD4B128BB8D3C0069966F /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
